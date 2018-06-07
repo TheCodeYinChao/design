@@ -49,6 +49,14 @@
 			<version>1.2.14</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+
 		<!--  JUNIT DEPENDENCY FOR TESTING -->
 		 <dependency>
 				 <groupId>junit</groupId>
