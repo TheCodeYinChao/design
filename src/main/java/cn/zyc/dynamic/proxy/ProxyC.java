@@ -18,7 +18,7 @@ public class ProxyC implements InvocationHandler {
         this.object = object;
         return Proxy.newProxyInstance(object.getClass().getClassLoader(),
                                         object.getClass().getInterfaces(),
-                                        this);
+                this);
     }
 
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {

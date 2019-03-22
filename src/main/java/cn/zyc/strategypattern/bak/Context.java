@@ -1,20 +1,18 @@
 package cn.zyc.strategypattern.bak;
 
 /**
- * User: zyc
- * Date: 2018-05-30
- * Time: 16:38
- * Version ：1.0
- * Description: 上下文 环境 主要是去执行所有做的事情,做一个中转去执行不同的策略
+ * @author zyc
+ * @date 2018/9/25 16:08
+ * @Description:
  */
 public class Context {
-    private Top top;
+    private Strategy strategy;
 
-    public Context(Top top) {
-        this.top = top;
+    public void setStrategy(Strategy strategy) {
+        this.strategy = strategy;
     }
 
-    public int execuRs(int arg0,int arg1){
-        return  top.math(arg0,arg1);
+    public int execute(int a, int b){
+        return strategy.execute(a,b);
     }
 }

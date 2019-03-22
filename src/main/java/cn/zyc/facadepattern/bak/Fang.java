@@ -1,13 +1,12 @@
 package cn.zyc.facadepattern.bak;
 
 /**
- * User: zyc
- * Date: 2018-05-30
- * Time: 17:28
- * Version ：1.0
- * Description:
+ * @author zyc
+ * @date 2018/6/19 18:31
+ * @Description:
  */
-public class Fang implements HUAHUA {
+public class Fang implements Huahua {
+    @Override
     public void draw() {
         System.out.println("画方");
     }
