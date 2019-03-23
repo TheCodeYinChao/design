@@ -1,5 +1,7 @@
 package cn.zyc.factory.abstractfactory;
 
+import java.io.InputStream;
+
 /**
  * User: zyc
  * Date: 2018-05-17

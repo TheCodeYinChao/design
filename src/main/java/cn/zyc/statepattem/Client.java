@@ -10,7 +10,7 @@ package cn.zyc.statepattem;
 public class Client {
     public static void main(String[] args) {
         Context context = new Context();
-        context.setLiftState(new ClosingState());
+        context.setLiftState(Context.closeingState);
         context.open();
         context.close();
         context.run();
