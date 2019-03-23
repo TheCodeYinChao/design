@@ -1,14 +1,10 @@
 package cn.zyc.facadepattern.bak;
 
 /**
- * User: zyc
- * Date: 2018-05-30
- * Time: 17:29
- * Version ：1.0
- * Description:
+ * Created by Admin on 2018/6/3.
  */
-public class Yuan implements HUAHUA {
+public class Yuan implements Draw {
     public void draw() {
-        System.out.println("画圆");
+        System.out.println("画园");
     }
 }

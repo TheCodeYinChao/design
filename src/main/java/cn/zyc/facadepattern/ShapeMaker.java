@@ -8,9 +8,9 @@ package cn.zyc.facadepattern;
  * Description:
  */
 public class ShapeMaker {
-    private Shape square;
-    private Shape rectangle;
-    private Shape circle;
+        private Shape square;
+        private Shape rectangle;
+        private Shape circle;
 
     public ShapeMaker() {
         this.square = new Square();
